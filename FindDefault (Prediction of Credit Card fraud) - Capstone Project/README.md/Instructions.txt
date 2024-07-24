@@ -1,6 +1,21 @@
-In order to run the model, please follows the steps below:
+In order to run the model, please follow the steps below:
 
 1. Download the notebook and run it on google colab
-2. The file path in the drive has been provided in the datafile.
-3. Copy the path and paste it within the brackets in pd.read_csv() function.
+2. The file path in the drive has been provided in the datafile. Download the data into the user's respective local drive or google drive.
+
+Based on the location of the data, the datset set can be read in 2 ways:
+  1. If the data has been stored in your local drive:
+    - In this case, the code:
+          "from google.colab import drive
+           drive.mount("/content/drive")" 
+      can be converted into a comment in the notebook.
+    - You can directly copy the path of the file and paste it within the double quotes in the  pd.read_csv(r" ") function.
+ 2. If the data has been stored in the google drive: 
+  - In this case, you will first need to run the code:
+          "from google.colab import drive
+           drive.mount("/content/drive")" 
+  - Once done, grant access to your google drive.
+  - Copy the path of the file from your drive and paste it within the brackets of the  pd.read_csv() function.
+
+3. Once the path has been copied, run the code and have it assigned to a variable which is already provided in the code.
 4. Lastly, you an run the entire code to display the findings and visualizations for the various model that were used. 
