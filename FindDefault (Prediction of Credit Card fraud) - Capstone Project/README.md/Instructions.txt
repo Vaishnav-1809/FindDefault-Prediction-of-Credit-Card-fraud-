@@ -1,0 +1,6 @@
+In order to run the model, please follows the steps below:
+
+1. Download the notebook and run it on google colab
+2. The file path in the drive has been provided in the datafile.
+3. Copy the path and paste it within the brackets in pd.read_csv() function.
+4. Lastly, you an run the entire code to display the findings and visualizations for the various model that were used. 
